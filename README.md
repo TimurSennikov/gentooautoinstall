@@ -3,3 +3,4 @@ gentoo automatic installer. feel free to modify the script. for the state of 13.
 RUN THE SCRIPT:
 run the main.py file
 for help dm me in telegram: @gentoolinuxuser
+:)
