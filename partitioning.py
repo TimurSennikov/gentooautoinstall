@@ -18,3 +18,5 @@ def partition_drive(osinstalldrive, osinstalldriveesp, osinstalldriveswap, osins
     os.system ("parted -a optimal " + osinstalldrive + " mkpart primary 5% 100%")
     os.system ("mkfs.vfat -F 32 " + osinstalldriveesp)
     os.system ("mkfs." + fstypetouse + " " + osinstalldriveroot)
+    if fstypetouse=="btrfs":
+        os.system ("mkfs." + fstypetouse + " " + osinstalldriveroot + " -f")
