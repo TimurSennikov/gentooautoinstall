@@ -4,3 +4,6 @@ RUN THE SCRIPT:
 run the main.py file.
 for help dm me in telegram: @gentoolinuxuser
 :)
+CHANGELOG:
+
+13.11.2023: now fully supporting "Preparing the disks" amd64 gentoo handbook step
