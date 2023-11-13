@@ -1,0 +1,2 @@
+# gentooautoinstall
+gentoo automatic installer
