@@ -13,3 +13,6 @@ def startsetupemerge():
     os.system("eselect profile list")
     profiletoselect=input("enter a number of profile you want to select ")
     os.system(f"eselect profile set {profiletoselect}")
+    print("Updating @world set. It may take some time. See gentoo handbook for more details")
+    time.sleep(1)
+    os.system("emerge --ask --verbose --update --deep --newuse @world")
